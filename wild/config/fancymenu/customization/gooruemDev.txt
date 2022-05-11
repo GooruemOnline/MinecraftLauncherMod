@@ -1,0 +1,95 @@
+type = menu
+
+customization-meta {
+  identifier = 구름온라인_더보기
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  description = 구름 온라인 리소스팩 및 모드를%n%다운로드받을 수 있습니다.%n%&c(개발진 전용)
+  label = 개발진: 리소스팩, 모드 다운로드 (임시)
+  loopbackgroundanimations = true
+  x = -111
+  width = 223
+  actionid = 84896c43-55c2-4cc2-8c1d-a3656f264d651647768789459
+  action = addbutton
+  y = -104
+  value = https://files.jdh5968.pe.kr/GooruemOnline
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  description = 테스트 서버 1로 접속합니다.%n%&a(구버전 ip)%n%&c(개발진 전용)
+  label = 개발진:테스트서버1
+  loopbackgroundanimations = true
+  x = -111
+  width = 108
+  actionid = a2460bb3-32e0-4574-9888-e6b39d510cb51647784651196
+  action = addbutton
+  y = -80
+  value = blossomvillage.mcv.kr:25564
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  description = 테스트 서버 2로 접속합니다.%n%&a(구버전 ip)%n%&c(개발진 전용)
+  label = 개발진:테스트서버2
+  loopbackgroundanimations = true
+  x = 4
+  width = 108
+  actionid = 47067a66-76c7-40b6-ae5e-a516f5a962d91647784704781
+  action = addbutton
+  y = -80
+  value = blossomvillage.mcv.kr:25566
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = 서버 목록을 표시합니다.%n%&c(개발진 전용)
+  label = 개발진:서버 목록 보기
+  loopbackgroundanimations = true
+  x = -111
+  width = 223
+  actionid = 15b4c864-7153-42bd-8d6e-769861d7c0331647784890989
+  action = addbutton
+  y = 92
+  value = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = 싱글 월드 목록을 봅니다.%n%&c(개발진 전용)
+  label = 개발진:싱글 월드 목록 보기
+  loopbackgroundanimations = true
+  x = -111
+  width = 223
+  actionid = b768b900-c1c4-4648-a7b9-e74bf6e87b381648121923845
+  action = addbutton
+  y = 67
+  value = net.minecraft.client.gui.screens.worldselection.SelectWorldScreen
+  height = 20
+}
+

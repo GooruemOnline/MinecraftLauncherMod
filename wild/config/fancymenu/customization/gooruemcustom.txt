@@ -1,0 +1,30 @@
+type = menu
+
+customization-meta {
+  identifier = gooruem
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = -50
+  width = 100
+  actionid = 9a50b034-a221-4305-9a5c-3f16976f13d61647768046982
+  action = addbutton
+  y = -58
+  label = 뒤로가기
+  value = 
+  height = 20
+}
+

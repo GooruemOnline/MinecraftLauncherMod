@@ -1,0 +1,71 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  description = 구름 온라인 서버에 접속합니다.%n%&a(구버전 ip)%n%&c(개발팀 전용)
+  label = 서버 접속(Old)
+  loopbackgroundanimations = true
+  x = 167
+  width = 100
+  actionid = 52176774-f537-473f-8bd0-d97436df788f1647769874653
+  action = addbutton
+  y = -191
+  value = blossomvillage.mcv.kr
+  height = 20
+}
+

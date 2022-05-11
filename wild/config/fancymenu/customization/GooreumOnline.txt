@@ -1,0 +1,219 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  minimummcversion = 1.18.1
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -267
+  action = movebutton
+  y = -104
+}
+
+customization {
+  identifier = %id=400322%
+  width = 166
+  action = resizebutton
+  height = 41
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = bottom-left
+  x = 166
+  action = movebutton
+  y = -107
+}
+
+customization {
+  identifier = %id=400382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-left
+  x = 59
+  action = movebutton
+  y = -79
+}
+
+customization {
+  identifier = %id=502382%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -338
+  action = movebutton
+  y = 101
+}
+
+customization {
+  identifier = %id=400346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = bottom-left
+  x = 59
+  action = movebutton
+  y = -107
+}
+
+customization {
+  identifier = %id=400346%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  description = 구름 온라인 서버에 접속합니다.
+  label = 서버 접속
+  loopbackgroundanimations = true
+  x = 166
+  width = 100
+  actionid = aae68bf2-35f4-4199-be51-e68e8b6f30ce1647522444697
+  action = addbutton
+  y = -79
+  value = gooruem.mcv.kr
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = 리소스팩을 설정합니다.
+  label = 리소스팩 설정
+  loopbackgroundanimations = true
+  x = 59
+  width = 207
+  actionid = 15bb264e-7145-499e-9732-10fb18f93a351647523960381
+  action = addbutton
+  y = -135
+  value = net.minecraft.client.gui.screens.packs.PackSelectionScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  description = 구름 온라인에서 제공하는 여러 항목들을%n%확인하실 수 있습니다.
+  label = 구름온라인 링크모음
+  loopbackgroundanimations = true
+  x = 59
+  width = 207
+  actionid = fe67dea2-be6b-4df0-89da-aac755c7dc9f1647768150846
+  action = addbutton
+  y = -163
+  value = 구름온라인_더보기
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = 모드 목록을 봅니다.
+  label = 모드
+  loopbackgroundanimations = true
+  x = 59
+  width = 100
+  actionid = 07981382-61ea-4117-8250-582afbe60e621647769727749
+  action = addbutton
+  y = -107
+  value = net.minecraftforge.client.gui.ModListScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  x = 166
+  width = 100
+  actionid = 3772eaf8-50d9-418e-81da-dc29dda1519c1647769797476
+  action = addbutton
+  y = -107
+  label = 설정...
+  value = net.minecraft.client.gui.screens.OptionsScreen
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  description = 구름 온라인을 종료합니다.
+  label = 게임 종료
+  loopbackgroundanimations = true
+  x = 59
+  width = 100
+  actionid = 930cc685-6c35-49f7-8aca-df1ea8fb879d1647769822935
+  action = addbutton
+  y = -79
+  value = net.minecraftforge.client.gui.ModListScreen
+  height = 20
+}
+
